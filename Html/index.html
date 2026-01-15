@@ -4,48 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Placement Tracker</title>
+
     <link rel="stylesheet" href="../CSS/header.css">
     <link rel="stylesheet" href="../CSS/index.css">
     <link rel="stylesheet" href="../CSS/footer.css">
 </head>
 <body>
-    <header id="header">
-        <h2>Placement Tracker</h2>
-        <input type="search" placeholder="search student/company">
-        <nav id="navlinks">
-            <a href="">Home</a>
-            <a href="../Html/college.html">Colleges</a>
-            <a href="../Html/student.html">Students</a>
-            <a href="../Html/company.html">Companies</a>
-            <a href="../Html/jobRole.html">Job Roles</a>
-        </nav>
-        
-    </header>   
-    <main id="main-container">
-        <div class="card" id="Colleges"></div>
-        <div class="card" id="Students"></div>
-        <div class="card" id="Companies"></div>
-        <div class="card" id="Jobs"></div>
-    </main>
-    <br><br>
 
-    <footer id="footer">
-        <div id="foot1">
-            <h3>About Placement Tracker</h3>
-            <p>
-                Placement Tracker helps colleges manage students, companies,
-                job roles, and placement statistics in one platform.
-            </p>
-        </div>
+<header id="header">
+    <h2>Placement Tracker</h2>
+    <input type="search" placeholder="Search student/company">
+    <nav id="navlinks">
+        <a href="index.html">Home</a>
+        <a href="college.html">Colleges</a>
+        <a href="student.html">Students</a>
+        <a href="company.html">Companies</a>
+        <a href="jobRole.html">Job Roles</a>
+    </nav>
+</header>
 
-        <div id="foot2">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </div>
-    </footer>
+<main id="main-container">
+    <div class="card" id="Colleges" data-link="college.html"></div>
+    <div class="card" id="Students" data-link="student.html"></div>
+    <div class="card" id="Companies" data-link="company.html"></div>
+    <div class="card" id="Jobs" data-link="jobRole.html"></div>
+</main>
 
-    <script src="../JavaScripts/Api.js"></script>
-    <script src="../JavaScripts/index.js"></script>
+<footer id="footer">
+    <div id="foot1">
+        <h3>About Placement Tracker</h3>
+        <p>
+            Placement Tracker helps colleges manage students, companies,
+            job roles, and placement statistics in one platform.
+        </p>
+    </div>
+
+    <div id="foot2">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</footer>
+
+<script src="../JavaScripts/Api.js"></script>
+<script src="../JavaScripts/index.js"></script>
+
 </body>
 </html>
