@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/AddStudent.css">
+
+</head>
+<body>
+     <form id="Studentform">
+        <h1>Edit Student</h1>
+        <input type="text" placeholder="Enter Student name" id="studentname"/>
+        <select id="StudentGender">
+            <option> Male</option>
+            <option> Female</option>
+        </select>
+        <br><br>
+        <input type="date" id="dob"/>
+        <input type="file" id="profileimg"/>
+        <br><br>
+        <input type="text" placeholder="Enter College id" id="collegeid"/>
+        <input type="text" placeholder="Enter Department" id="department"/>
+        <br><br>
+        <input type="text" placeholder="Enter Degree" id="Degree"/>
+        <input type="number" placeholder="Enter Graduation Year" id="graducation"/>
+        <br><br>
+        <input type="number" placeholder="Enter CGPA" id="cgpa"/>
+        <input type="number" placeholder="Enter Backlogs" id="Backlogs"/>
+        <br><br>
+        <input type="text" placeholder="Enter Prohramming languages" id="progeamming"/>
+        <input type="text" placeholder="Enter DataBase" id="DataBase"/>
+        <br><br>
+        <input type="text" placeholder="Enter Tools" id="tools"/>
+        <select id="placementstatus">
+            <option>placed</option>
+            <option>Not placed</option>
+        </select>
+        <button>Submit</button>
+
+    </form>
+    <script src="../JavaScripts/Api.js"></script>
+    <script src="../JavaScripts/editstudent.js"></script>
+</body>
+</html>
